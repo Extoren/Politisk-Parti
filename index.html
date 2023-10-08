@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>Konservatistisk Solidaritet</title>
+</head>
+<body>
+    <main class="wrapper">
+        <header>
+            <img src="bilder/Logo.png" alt="Logo">
+            <nav>
+              <ul class="nav-links">
+                <li><a href="#artikler">Artikler</a></li>
+                <li><a href="#breweries">Kjernesaker</a></li>
+                <li><a href="#about-us">Organisasjon</a></li>
+                <li id="box"><a href="#become-member">Bli medlem!</a></li>
+              </ul>
+              <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+            </nav>
+          </header>
+        <section class="hero">
+          <h1>Konservatistisk Solidaritet</h1>
+          <article>
+            <p>For tradisjon og velvære for det Norske folk</p>
+            <a href="#artikler">Bla artikler</a>
+            <button onclick="showFullscreenImage()" id="skala">Skala</button>
+          </article>
+        </section>
+        <div class="fullscreen-image" id="fullscreenImage">
+          <img src="bilder/Skala.png" alt="Fullscreen Image">
+          <button onclick="hideFullscreenImage()" id="close-button">Lukk</button>
+      </div>
+    
+    <section class="artikler" id="artikler">
+    <div class="holder">
+        <p>Siste Artikler</p>
+    </div>
+        <div class="container">
+            <div id="card-1">
+              <div class="image">
+                <img
+                  src="https://kilden.forskningsradet.no/sites/default/files/styles/media_image/public/55337-file.image.jpg?h=827069f2&itok=du_rCrmB"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="front">
+                  <h1>Likestilling og inkludering  </h1>
+                  <p>Likestilling</p>
+                </div>
+                <div class="back">
+                  <p>
+                    Politikerne i partiet vil hevde at likestilling handler om å sikre like muligheter, 
+                    rettigheter og verdighet for alle borgere uavhengig av kjønn, etnisitet eller bakgrunn.
+                  </p>
+                  <a href="#">Les mer</a>
+                </div>
+              </div>
+            </div>
+            <div id="card-1">
+                <div class="image">
+                  <img
+                    src="https://media.snl.no/media/160421/standard_compressed_shutterstock_735361786.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="text">
+                  <div class="front">
+                    <h1>Helse, familie og oppvekst</h1>
+                    <p>Eldreomsorg</p>
+                  </div>
+                  <div class="back">
+                    <p>
+                      Politikerne i partiet ville hevde at å sikre verdig og omsorgsfull behandling av eldre er en grunnleggende samfunnsplikt.
+                    </p>
+                    <a href="#">Les mer</a>
+                  </div>
+                </div>
+              </div>
+              <div id="card-1">
+                <div class="image">
+                  <img
+                    src="https://www.nettavisen.no/billig/str%C3%B8m/wp-content/uploads/2022/03/shutterstock_1700360854-scaled.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="text">
+                  <div class="front">
+                    <h1>Klima og miljø</h1>
+                    <p>Atomreaktor</p>
+                  </div>
+                  <div class="back">
+                    <p>
+                      Politikerne i partiet ville hevde at nøye vurderinger av atomkraft er avgjørende for å balansere behovet for 
+                      pålitelig energiforsyning med hensynet til miljø og sikkerhet.
+                    </p>
+                    <a href="#">Les mer</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="holder">
+            <p>Kjernesaker</p>
+        </div>
+        <section class="breweries" id="breweries">
+          <ul>
+            <li>
+              <figure>
+                <img src="https://806db7edab.clvaw-cdnwnd.com/e14d69166cafdf47593b095365d4a13f/200000029-e1b29e2abf/22459410_1175472669221555_5891938519715339604_o-5.jpg?ph=806db7edab" alt="">
+                <span class="number">1</span>
+                <figcaption><h3>Ekte demokrati</h3></figcaption>
+              </figure>
+              <p>
+                Vi mener at dette handler om å inkludere alle borgere i beslutningsprosesser, 
+                og sørge for at deres stemmer blir hørt. Dette er avgjørende for å sikre en 
+                rettferdig og bærekraftig samfunnsutvikling som ivaretar alles behov og interesser.
+              </p>
+              <a href="#">Les mer</a>
+            </li>
+            <li>
+              <figure>
+                <img src="https://premium.vgc.no/v2/images/53464366-948a-4f72-902b-34ef0ff025a4?fit=crop&format=auto&h=1218&w=1900&s=fe99a5a88857826e282c5c841f859d39fafad4bc" alt="">
+                <figcaption><h3>Norsk selvråderett</h3></figcaption>
+                <span class="number">2</span>
+              </figure>
+              <p>
+                Vi mener at det er viktig å beskytte norske interesser, kultur og ressurser, 
+                og å sikre at beslutninger som påvirker landet, blir tatt med nøye hensyn til norske borgere og deres velvære.
+              </p>
+              <a href="#">Les mer</a>
+            </li>
+            <li>
+              <figure>
+                <img src="https://imaginary.abcmedia.no/resize?force=false&width=980&aspectratio=16:9&nocrop=false&interlace=true&url=https%3A%2F%2Fabcnyheter.drpublish.aptoma.no%2Fout%2Fimages%2Farticle%2F%2F2023%2F03%2F13%2F195909666%2F1%2Foriginal%2F80102675.jpg" alt="">
+                <span class="number">3</span>
+                <figcaption><h3>Nasjonal trygghet</h3></figcaption>
+              </figure>
+              <p>
+                Politikerne vil jobbe for at nasjonal trygghet er en forutsetning for et velfungerende samfunn. Vi mener at 
+                dette ikke bare innebærer militær sikkerhet, men også å adressere utfordringer som økonomisk stabilitet, helsevesen og en 
+                bærekraftig miljøpolitikk for å sikre trygghet for alle borgere i nasjonen vår.
+              </p>
+              <a href="#">Les mer</a>
+            </li>
+            <li>
+                <figure>
+                  <img src="https://wallpapercave.com/wp/wp7902379.jpg" alt="">
+                  <span class="number">4</span>
+                  <figcaption><h3>Energi og drivstoff</h3></figcaption>
+                </figure>
+                <p>
+                    Politikerne vil jobbe for at det er nødvendig å investere i fornybare og miljøvennlige 
+                    energikilder for å redusere avhengigheten av fossile brensler og bekjempe klimaendringene. 
+                    Vi mener at dette ikke bare vil sikre en mer bærekraftig fremtid, men også skape nye arbeidsplasser 
+                    og stimulere til innovasjon og teknologisk utvikling.
+                </p>
+                <a href="#">Les mer</a>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://helse-mr.no/PublishingImages/Fotograf%20Kristin%20St%C3%B8ylen%20sine%20bilete/HelseMidtNorge_miljobilder_195A2280_fotoKristinStoylen.jpg?RenditionID=10" alt="">
+                  <span class="number">5</span>
+                  <figcaption><h3>Helse</h3></figcaption>
+                </figure>
+                <p>
+                    Politikerne vil jobbe for at tilgang til høykvalitets helsevesen er en grunnleggende 
+                    rettighet for alle borgere. Samtidig vil vi arbeide for å redusere ulikheter i 
+                    helsevesenet og fremme forebyggende tiltak for å sikre en sunn og livskraftig befolkning.
+                </p>
+                <a href="#">Les mer</a>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://imaginary.abcmedia.no/resize?force=false&width=980&aspectratio=16:9&nocrop=false&interlace=true&url=https%3A%2F%2Fabcnyheter.drpublish.aptoma.no%2Fout%2Fimages%2Farticle%2F%2F2020%2F03%2F20%2F195660014%2F1%2Foriginal%2F18051997.jpg" alt="">
+                  <span class="number">6</span>
+                  <figcaption><h3>Beredskap og selvforsyning</h3></figcaption>
+                </figure>
+                <p>
+                    Politikerne vil jobbe for at det er avgjørende å sikre at nasjonen har robuste 
+                    beredskapsplaner på plass for å håndtere ulike kriser og utfordringer. Dette vil ikke bare styrke 
+                    nasjonens motstandsdyktighet, men også bidra til økt trygghet og velvære for våre borgere.
+                </p>
+                <a href="#">Les mer</a>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://www.webpsykologen.no/innhold/canstockphoto15956916.jpg" alt="">
+                  <span class="number">7</span>
+                  <figcaption><h3>Miljøvern som virker</h3></figcaption>
+                </figure>
+                <p>
+                    Politikerne vil jobbe for et effektiv miljøvern er essensielt for å sikre en bærekraftig 
+                    fremtid for kommende generasjoner. Vi mener at dette innebærer å implementere politikk og tiltak 
+                    som reduserer klimapåvirkning, beskytter naturområder og fremmer bærekraftige produksjonsmetoder. 
+                </p>
+                <a href="#">Les mer</a>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://skolerom.no/wp-content/uploads/sites/2/2021/09/GettyImages-531184656-2-1280x853.jpg" alt="">
+                  <span class="number">8</span>
+                  <figcaption><h3>Primærnæringene våre</h3></figcaption>
+                </figure>
+                <p>
+                    Politikerne vil jobbe for at landbruk, fiske og annen primærnæring er avgjørende for nasjonens 
+                    økonomi og matsikkerhet. Vi mener at det er viktig å støtte og modernisere disse sektorene for å sikre 
+                    bærekraftig produksjon, bevare naturressurser og opprettholde levende lokalsamfunn.
+                </p>
+                <a href="#">Les mer</a>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://mestring.no/wp-content/uploads/2013/12/skole_700.jpg" alt="">
+                  <span class="number">9</span>
+                  <figcaption><h3>Familie og skole</h3></figcaption>
+                </figure>
+                <p>
+                    Vi mener at det er nødvendig å investere i familiepolitikk som fremmer likestilling, støtter foreldre og 
+                    sikrer barns velferd. Samtidig vil vi arbeide for å styrke utdanningssystemet med fokus på tilgang, 
+                    kvalitet og inkludering, for å forberede våre unge på en stadig mer kompleks verden. Dette vil 
+                    bidra til å skape et inkluderende og kunnskapsbasert samfunn som gir muligheter for alle.
+                </p>
+                <a href="#">Les mer</a>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://www.frp.no/images/Tema/Innvandring/Innvandringspolitikk.jpg" alt="">
+                  <span class="number">10</span>
+                  <figcaption><h3>Forsvarlig innvandring</h3></figcaption>
+                </figure>
+                <p>
+                    Vi mener at dette innebærer å 
+                    legge til rette for en human, rettferdig og inkluderende innvandringsprosess som tar 
+                    hensyn til både nasjonale behov og individuelle rettigheter. Samtidig vil vi arbeide for 
+                    å styrke integreringstiltak og fremme kulturell mangfold for å bygge et mer harmonisk og 
+                    respektfullt samfunn for alle borgere, uavhengig av bakgrunn.
+                </p>
+                <a href="#">Les mer</a>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://www.venstre.no/assets/penger.jpg" alt="">
+                  <span class="number">11</span>
+                  <figcaption><h3>Norges pengebruk</h3></figcaption>
+                </figure>
+                <p>
+                    Politikerne i partiet ville hevde at en nøye gjennomgang og forvaltning av offentlige ressurser 
+                    er avgjørende for å sikre økonomisk bærekraft og sosial rettferdighet. Samtidig vil vi 
+                    jobbe for å opprettholde en sunn økonomisk balanse og stimulere til bærekraftig vekst for å sikre en 
+                    trygg og stabil økonomisk fremtid for nasjonen vår.
+                </p>
+                <a href="#">Les mer</a>
+              </li>
+          </ul>
+        </section>
+        <section class="about-us" id="about-us">
+          <div class="holder2">
+            <p>Organisasjon</p>
+          </div>
+          <div class="container2">
+            <div class="card">
+              <div class="circle">
+                <img src="https://artscimedia.case.edu/wp-content/uploads/sites/79/2016/12/14205134/no-user-image.gif" alt="">
+              </div>
+              <div class="text2">
+                <h3>Joele Flaka</h3>
+                <p>Partileder</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="circle">
+                <img src="https://media.licdn.com/dms/image/D4E03AQE2wf1NfdM1_w/profile-displayphoto-shrink_100_100/0/1692780705138?e=1701907200&v=beta&t=09OH2yGENx2u0NQYqNBUbhpI9I11OxZCglA3Pw_yPtY" alt="">
+              </div>
+              <div class="text2">
+                <h3>Henrik Uran Nykmark</h3>
+                <p>Nestleder</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="circle">
+                <img src="https://media.licdn.com/dms/image/D4E03AQHa3Wh2QFXSjg/profile-displayphoto-shrink_200_200/0/1691502013579?e=1701907200&v=beta&t=kUs5gFAbzTON9_Aj2PjGY1IsZOinLcI-c81ycTSTt_0" alt="">
+              </div>
+              <div class="text2">
+                <h3>Max Theodor Aarre</h3>
+                <p>Generalsekretær</p>
+              </div>
+            </div>
+          </div>
+        </section>
+          <section class="become-member" id="become-member">
+            <h2>Bli medlem!</h2>
+            <form>
+              <label for="email">E-post:</label>
+              <input type="email" id="email" name="email" required>
+              <button type="submit">Send</button>
+            </form>
+          </section>
+      </main>
+      <footer>
+        <p>Laget av Max T. Aarre <br> Presentert av: Joele, Henrik og Max</p>
+      </footer>
+        <script src="script.js"></script>
+</body>
+</html>
